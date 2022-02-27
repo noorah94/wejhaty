@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+
+.logo {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  color: black;
+  margin-right: 3%;
+  font-family: "Rakkas", cursive;
+}
+/* 
+@media screen and (min-width: 40em) {
+  .logo {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 52em) {
+  .logo {
+    font-size: 200%;
+  }
+} */
