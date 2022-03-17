@@ -14,6 +14,9 @@ import MyOrders from "./components/MyOrders";
 import LoginSignupDesign from "./components/LoginSignupDesign";
 import Footer from "./components/Footer";
 import WhoAreWe from "./components/WhoAreWe";
+import YourActivityOnYourMood from "./components/YourActivityOnYourMood";
+import YourActivityOnYourMoodByCatg from "./components/YourActivityOnYourMoodByCatg";
+import YourActivityOnYourMoodInfo from "./components/YourActivityOnYourMoodInfo";
 function App() {
   return (
     <>
@@ -94,6 +97,37 @@ function App() {
           }
         />
         <Route exact path="/PlanYourTrip" element={<PlanYourTrip />} />
+        <Route
+          exact
+          path="/YourActivityOnYourMood"
+          element={
+            <>
+              <YourActivityOnYourMood />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/YourActivityOnYourMood/:catg"
+          element={
+            <>
+              <YourActivityOnYourMoodByCatg />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          exact
+          path="/YourActivityOnYourMood/:catg/:id"
+          element={
+            <>
+              <YourActivityOnYourMoodInfo />
+              <Footer />
+            </>
+          }
+        />
         <Route exact path="/travelTips" element={<TravelTips />} />
         <Route
           exact

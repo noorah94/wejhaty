@@ -70,6 +70,7 @@ export default function Header() {
                 <Link to="/"> الرئيسية </Link>
                 <Link to="/destinations"> الوجهات </Link>
                 <Link to="/dayInYourCity"> يوم في مدينتك </Link>
+                <Link to="/YourActivityOnYourMood"> فعاليتك على مزاجك </Link>
                 <Link to="/PlanYourTrip">خطط لرحلتك</Link>
                 {/* <Link to="/travelTips"> ارشادات السفر </Link> */}
                 <Link to="/whoAreWe"> من نحن </Link>
